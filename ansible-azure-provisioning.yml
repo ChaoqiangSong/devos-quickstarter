@@ -2,6 +2,7 @@
 - hosts: localhost
   connection: local
   gather_facts: False
+  cloud_environment: AzureChinaCloud
   vars_files:
     - group_vars/provisioning-azure-vm.yml
   roles:
